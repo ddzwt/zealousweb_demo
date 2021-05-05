@@ -1,0 +1,89 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#ff99994a;
+}
+
+.login{  
+        width: 382px;  
+        margin: auto;  
+        padding:65px 87px 75px 127px;  
+        background: #000000;  
+        border-radius: 15px ;  
+          
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border-radius: 3px;  
+    text-align: center;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border-radius: 3px;  
+   text-align: center; 
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border-radius: 17px; 
+    color: blue;  
+  }
+#main {
+  width: 220px;
+  height: 300px;
+  border: 2px solid black; 
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+#main div {
+   flex: 1;
+}
+.flaxbox{
+  height: 200px;
+  width: 50%;
+  margin:auto;
+  background-color:#000000;
+  margin-top:20px;
+}
+.Default{
+  height:50px;
+  width: 120px;
+  color:#fff;
+  background-color: green;
+  margin: 10px;
+  text-align: center;
+  display:inline-flex ;
+  justify-content: center;  
+}
+.f-row-reverse{
+ flex-direction:row-reverse;
+ display: inline-flex;
+ display: flex;
+}
+.f-column{
+  flex-direction: column;
+  display: flex;
+  height: auto;
+}
+.f-column-reverse{
+  flex-direction: column-reverse;
+  display: inline-flex;
+  display: flex;
+  height: auto;
+}
+.f-justify-end{
+  justify-content: flex-end;
+  display: flex;
+}
+.f-space-between{
+  justify-content: space-between;
+  display: flex;
+}
+.f-space-around{
+  
+}
